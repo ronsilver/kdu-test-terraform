@@ -1,5 +1,5 @@
-module "aws_route_53" {
-  source = "../../../modules/route-53"
+module "aws_vpc" {
+  source = "../../../modules/vpc"
   #version = ""
 
 }
